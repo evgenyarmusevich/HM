@@ -1,4 +1,5 @@
 import random
+
 def rgen():
     a = 10
     b = int(input("First nuber:"))

@@ -1,4 +1,5 @@
 import random
+
 def rgen():
     b = 0
     c = 10
@@ -12,6 +13,7 @@ def rgen():
 
     newlist = {x for x in list1 if x in list2}
     print("Список с общими значениями: ", list(newlist))
+
 
 rgen()
 

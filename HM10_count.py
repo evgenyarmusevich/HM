@@ -10,4 +10,5 @@ def count():
             k += int(elem)
     print("Сумма чисел =", k)
 
+
 count()
