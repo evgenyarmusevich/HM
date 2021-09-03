@@ -4,9 +4,11 @@ def func_1():
     c = int(input("Введите значение 'C' "))
     while a < b:
         print("Число " + str(a) + " меньше " + str(b))
-        a = a + c
-        if a >= b:
-            print("Поздравляем, цикл завершен. Число " + str(a) + " равно или больше " + str(b))
+        a += c
+        if a == b:
+            print("Поздравляем, цикл завершен. Число " + str(a) + " равно " + str(b))
             break
-
+        elif a > b:
+            print("Поздравляем, цикл завершен. Число " + str(a) + " больше " + str(b))
+            break
 func_1()
