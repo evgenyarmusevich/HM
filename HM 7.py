@@ -11,4 +11,5 @@ def func_1():
         elif a > b:
             print("Поздравляем, цикл завершен. Число " + str(a) + " больше " + str(b))
             break
+
 func_1()
